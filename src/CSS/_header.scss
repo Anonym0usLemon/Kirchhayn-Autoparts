@@ -1,0 +1,125 @@
+Header {
+
+    .top-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;    
+        padding-block: 5px;
+
+        .mobile-logo {
+            width: 220px;
+            height: 50px;
+        }
+
+        .right-content {
+            display: flex;            
+            justify-content: flex-end;
+            align-items: center;
+            gap: 15px;
+
+            .phone-icon {
+                height: 40px;
+                width: 40px;
+            }
+
+// Hamburger Menu :) 
+
+            .nav_toggle {
+                position: relative;
+                background-color: $kirch-red;
+                height: 60px;
+                width: 60px;
+                border: none;
+
+                .hamburger {
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .hamburger, .hamburger::before, .hamburger::after {
+                    content: "";
+                    display: block;
+                    height: 4px;
+                    width: 2.1em;
+                    background-color: $white;
+                    position: absolute;
+                }
+
+                .hamburger::before { top: 12px }
+                .hamburger::after { bottom: 12px }
+            }
+        }
+
+    }
+
+    .open-nav {
+        max-height: 500px !important;
+    }
+
+    .nav {
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.3s;
+
+        .nav-list {
+            text-decoration: none;
+            list-style: none;
+            padding: 20px;
+            margin: 0;
+            font-size: 20px;
+            height: 100%;
+
+            .nav-item {
+                padding: 10px;
+                font-family: $Montserrat;
+                font-weight: 500;
+                color: black;
+            }
+
+            .has-dropdown {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                
+                #submenu-checkbox {
+                    display: none;
+                }
+
+                #submenu-checkbox:checked {
+                    & ~ .dropdown {
+                        height: 65px;
+                    }
+
+                    & ~ label img {
+                        transform: rotate(-180deg);
+                    }       
+                }
+
+                label {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                }
+
+                img {
+                    position: relative;
+                    left: 90%;
+                    transition: 0.3s;
+                    height: 12px;
+                    width: auto;
+                }
+            
+            }
+
+            .dropdown {
+                list-style: none;
+                height: 0;
+                overflow: hidden;
+                transition: 0.3s;
+            }
+        }
+    }
+}
