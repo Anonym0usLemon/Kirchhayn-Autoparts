@@ -1,15 +1,35 @@
 Header {
+    background-color: $background;
 
-    .top-content {
+    @media only screen and (min-width: 1050px) {
+        display: flex;
+        background-color: $foreground;
+
+    }
+
+    .mobile-top-content {
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 60px;    
         padding-block: 5px;
 
+        @media only screen and (min-width: 500px) {
+            height: 70px;
+        }
+
+        @media only screen and (min-width: 1050px) {
+            display: none;
+        }
+
         .mobile-logo {
             width: 220px;
             height: 50px;
+
+            @media only screen and (min-width: 500px) {
+                width: 250px;
+                height: auto;
+            }
         }
 
         .right-content {
@@ -32,6 +52,11 @@ Header {
                 width: 60px;
                 border: none;
 
+                @media only screen and (min-width: 500px) {
+                    height: 70px;
+                    width: 70px;
+                }
+
                 .hamburger {
                     top: 50%;
                     left: 50%;
@@ -45,13 +70,61 @@ Header {
                     width: 2.1em;
                     background-color: $white;
                     position: absolute;
+                    transition: 0.3s;
+
+                    @media only screen and (min-width: 500px) {
+                        width: 2.5em;
+                    }
                 }
 
                 .hamburger::before { top: 12px }
                 .hamburger::after { bottom: 12px }
             }
+
+// Open Hamburger Menu:  
+
+            .hamburger-cooked {
+
+                .hamburger::before {
+                    transform: translateX(-100%);
+                    opacity: 0;
+                }
+
+                .hamburger {
+                    transform: rotate(45deg) translate(-12px, 10px);
+
+                    @media only screen and (min-width: 500px) {
+                        transform: rotate(45deg) translate(-16px, 12px);
+                    }
+                }
+
+                .hamburger::after {
+                    transform: rotate(90deg) translate(12px, 1px);
+                }
+            }
         }
 
+    }
+
+    .desktop-logo {
+        display: none;
+
+        @media only screen and (min-width: 1050px) {
+            position: absolute;
+            display: block;
+            height: 120px;
+            width: 120px;
+            margin-top: 5px;
+            margin-left: 30px;
+            z-index: 99;
+        }
+
+        @media only screen and (min-width: 1500px) {
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+            margin-left: 70px;
+        }
     }
 
     .open-nav {
@@ -59,9 +132,22 @@ Header {
     }
 
     .nav {
+        position: relative;
         max-height: 0;
         overflow: hidden;
         transition: 0.3s;
+
+        @media only screen and (min-width: 1050px) {
+            max-height: unset;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background-color: $background;
+        }
+
+        @media only screen and (min-width: 1500px) {
+            height: 90px;
+        }
 
         .nav-list {
             text-decoration: none;
@@ -70,12 +156,50 @@ Header {
             margin: 0;
             font-size: 20px;
             height: 100%;
+            text-transform: uppercase;
+            
+
+            @media only screen and (min-width: 1050px) {
+                display: flex;
+                justify-content: space-around;
+                font-size: 16px;
+                width: 100%;
+                margin-left: 160px;
+                margin-right: 220px;
+            }
+
+            @media only screen and (min-width: 1500px) {
+                margin-left: 260px;
+                margin-right: 270px;
+            }
 
             .nav-item {
                 padding: 10px;
                 font-family: $Montserrat;
-                font-weight: 500;
+                font-weight: 700;
                 color: black;
+
+                @media only screen and (min-width: 1050px) {
+                    padding: 5px;
+                    font-size: 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                @media only screen and (min-width: 1500px) {
+                    font-size: 16px;
+                }
+            }
+
+            .move-up {
+                position: relative;
+                top: -5px;
+
+                @media only screen and (min-width: 1050px) {
+                    top: unset;
+                    left: 10px;
+                }
             }
 
             .has-dropdown {
@@ -83,19 +207,37 @@ Header {
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
+
+                @media only screen and (min-width: 1050px) {
+
+                    &:hover {
+                        .dropdown-label img {
+                            rotate: (-180deg);
+                        }    
+                        
+                        .dropdown {
+                            visibility: visible;
+                            height: 65px;
+                        }
+                    }
+                }
+
+                @media only screen and (max-width: 1050px) {
+
+    
+                    #submenu-checkbox:checked {
+                        & ~ .dropdown {
+                            height: 65px;
+                        }
+    
+                        & ~ label img {
+                            transform: rotate(-180deg);
+                        }       
+                    }
+                }
                 
                 #submenu-checkbox {
                     display: none;
-                }
-
-                #submenu-checkbox:checked {
-                    & ~ .dropdown {
-                        height: 65px;
-                    }
-
-                    & ~ label img {
-                        transform: rotate(-180deg);
-                    }       
                 }
 
                 label {
@@ -110,6 +252,19 @@ Header {
                     transition: 0.3s;
                     height: 12px;
                     width: auto;
+
+                    @media only screen and (min-width: 1050px) {
+                        height: 8px;
+                        left: 100%;
+                        top: 18%;
+                        transition: 0.5s;
+                    }
+
+                    @media only screen and (min-width: 1500px) {
+                        height: 10px;
+                        top: 32%;
+                        left: 102%;
+                    }
                 }
             
             }
@@ -119,6 +274,89 @@ Header {
                 height: 0;
                 overflow: hidden;
                 transition: 0.3s;
+                background-color: $white;
+
+                @media only screen and (min-width: 1050px) {
+                    position: absolute;
+                    top: 30px;
+                    padding: 20px;
+                    left: -15px;
+                    z-index: 99;
+                    visibility: hidden;
+                }
+            }
+        }
+
+        .phone-info {
+            display: none;
+            
+            @media only screen and (min-width: 1050px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                right: 0;
+                top: 15px;
+                margin-right: 30px;
+                height: 30px;
+
+                @media only screen and (min-width: 1500px) {
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 40px;
+                    margin-right: 70px;
+
+                    &:hover {
+                        transform: translateY(-50%) scale(0.97);
+                    }
+                }
+
+                img {
+                    height: 25px;
+                    width: 25px;
+                    margin-right: 10px;
+
+                    @media only screen and (min-width: 1500px) {
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-left: 10px;
+                    border-left: 2px solid $grey;
+                    height: 100%;
+                    padding-block: 0;
+
+                    p {
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                        margin-top: 1px;
+
+                        @media only screen and (min-width: 1500px) {
+                            font-size: 16px;
+                        }
+                    }
+
+                    span {
+                        font-family: $Brute;
+                        font-size: 14px;
+                        letter-spacing: 0px;
+                        word-spacing: -5px;
+                        line-height: 0;
+                        margin-bottom: 8px;
+
+                        @media only screen and (min-width: 1500px) {
+                            font-size: 16px;
+                        }
+                    }
+                }
             }
         }
     }

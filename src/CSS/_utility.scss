@@ -1,6 +1,33 @@
 $kirch-red: #771c2e;
 $kirch-yellow: #f7df3f;
 $white: #ffffff;
+$grey: #bbbbbb;
+$foreground: #f2f2f2; 
+$background: white; 
 
 $Montserrat: 'Montserrat'; 
 $Brute: 'Brute'; 
+
+// padding-inline for all pages
+.padding-inline {
+    padding-inline: 5px;
+}
+
+body {
+    background-color: $foreground;
+}
+
+// Paragraph styles
+p {
+    font-size: 15px;
+    font-family: $Montserrat;
+}
+
+//interactive hover effects 
+.hover-animation {
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(0.97);
+    }
+}
