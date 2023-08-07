@@ -132,17 +132,22 @@ Header {
     }
 
     .nav {
-        position: relative;
+        position: absolute;
+        background-color: $background;
         max-height: 0;
         overflow: hidden;
         transition: 0.3s;
+        z-index: 99;
+        width: 100%;
 
         @media only screen and (min-width: 1050px) {
+            position: relative;
             max-height: unset;
             display: flex;
             justify-content: center;
             width: 100%;
             background-color: $background;
+            z-index: 98;
         }
 
         @media only screen and (min-width: 1500px) {

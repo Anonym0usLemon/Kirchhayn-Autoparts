@@ -2,6 +2,7 @@ $kirch-red: #771c2e;
 $kirch-yellow: #f7df3f;
 $white: #ffffff;
 $grey: #bbbbbb;
+$black: #000000;
 $foreground: #f2f2f2; 
 $background: white; 
 
@@ -11,6 +12,14 @@ $Brute: 'Brute';
 // padding-inline for all pages
 .padding-inline {
     padding-inline: 5px;
+
+    @media only screen and (min-width: 1050px) {
+        padding-inline: 30px;
+    }
+
+    @media only screen and (min-width: 1500px) {
+        padding-inline: 70px;
+    }
 }
 
 body {
@@ -21,6 +30,24 @@ body {
 p {
     font-size: 15px;
     font-family: $Montserrat;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: $Brute;
+    font-weight: 600;
+
+    @media only screen and (min-width: 500px) {
+        font-size: 28px;
+    }
+
+    @media only screen and (min-width: 1050px) {
+        font-size: 33px;
+    }
+
+    @media only screen and (min-width: 1500px) {
+        font-size: 42px;
+    }
 }
 
 //interactive hover effects 

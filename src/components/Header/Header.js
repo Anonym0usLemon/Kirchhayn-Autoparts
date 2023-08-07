@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
 
@@ -25,7 +26,7 @@ function Header() {
             <nav className={`nav ${openNav ? 'open-nav' : ''}`}>
                 <ul className="nav-list">
                     <li className="nav-item"><a>Search Used Car Parts</a></li> 
-                    <li className="nav-item"><a>Search Used Cars</a></li>
+                    <li className="nav-item"><Link to="/used-cars">Search Used Cars</Link></li>
                     <li className="nav-item"><a>Sell Your Car</a></li>
                     <li className="has-dropdown nav-item">
                         <a>Resources</a>
