@@ -1,5 +1,10 @@
 import CarTile from "./CarTile";
 
+/**
+ * This component is for the Used Vehicles page
+ * it displays a list of car components dynamicaly. 
+ * 
+ */
 
 function UsedVehicles() {
     return (

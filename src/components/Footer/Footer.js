@@ -11,16 +11,16 @@ function Footer() {
                 <div className="info-container">
                     <img src="./images/Home/yellow-phone-icon.png" alt=""/>
                     <div className="info">
-                        <p>555 555 5555</p>
-                        <p>Mon - Fri: 8:00 - 5:00 <br/>Sat: 9:00 - 1:00</p>
+                        <p className="number">555 555 5555</p>
+                        <p className="align-end">Mon - Fri: 8:00 - 5:00 <br/>Sat: 9:00 - 1:00</p>
                     </div>
                 </div>
             </div>
             <div className="address-container">
                 <img src="./images/Home/yellow-pin.png" alt=""/>
                 <div className="info">
-                    <p>Address</p>
-                    <p>W4726 County Road A <br/> Fredonia, WI 53021</p>
+                    <p className="title">Address</p>
+                    <p className="align-end">W4726 County Road A <br/> Fredonia, WI 53021</p>
                 </div>
             </div>
             <div className="our-services">
@@ -35,7 +35,7 @@ function Footer() {
                 <Link>Testimonials</Link>
                 <Link className="yellow">Donate</Link>
             </div>
-            <img src="./images/Home/Credit-Cards.png" alt="" />
+            <img className="credit-cards" src="./images/Home/Credit-Cards.png" alt="" />
             <p>Developed By - Dominic DiModugno</p>
         </footer>
     );

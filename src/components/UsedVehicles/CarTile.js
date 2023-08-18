@@ -1,3 +1,8 @@
+/**
+ *  This is the CarTile component. It accepts a list of data and displays it 
+ * on the used vehicles page.  
+ * 
+ */
 
 function CarTile() {
     const cars = [
