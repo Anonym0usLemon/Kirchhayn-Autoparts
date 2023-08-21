@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
             <div className="logo-container">
-                <img src="./images/Home/logo.png" alt=""/>
+                <img className="hover-animation" src="./images/Home/logo.png" alt=""/>
             </div>
             <div className="contact-container">
                 <p className="title">Contact Us</p>
@@ -24,19 +24,21 @@ function Footer() {
                 </div>
             </div>
             <div className="our-services">
+                <p>Our Services</p>
                 <Link>Search Used Car Parts</Link>
                 <Link>Search Used Cars</Link>
                 <Link>Sell Your Car</Link>
                 <Link>Contact Us</Link>
             </div>
             <div className="resources">
+                <p>Resouces</p>
                 <Link>Cut Sheets</Link>
                 <Link>Warranty</Link>
                 <Link>Testimonials</Link>
                 <Link className="yellow">Donate</Link>
             </div>
             <img className="credit-cards" src="./images/Home/Credit-Cards.png" alt="" />
-            <p>Developed By - Dominic DiModugno</p>
+            <p className="credits">Developed By - Dominic DiModugno</p>
         </footer>
     );
 }
