@@ -312,9 +312,15 @@ footer {
     .credits {
         color: $grey-text;
         font-size: 12px;
+        text-align: center;
     }
 
     .desktop-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         @media only screen and (min-width: 1050px) {
             display: flex;
             flex-direction: row-reverse;
