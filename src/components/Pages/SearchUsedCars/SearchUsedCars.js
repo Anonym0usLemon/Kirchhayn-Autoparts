@@ -6,7 +6,7 @@ import CarTile from "./CarTile";
  * 
  */
 
-function UsedVehicles() {
+function SearchUsedCars() {
     return (
         <section className="used-vehicles padding-inline">
             <h1>Newest Used Vehicle Selection</h1>
@@ -16,4 +16,4 @@ function UsedVehicles() {
     );
 }
 
-export default UsedVehicles;
+export default SearchUsedCars;

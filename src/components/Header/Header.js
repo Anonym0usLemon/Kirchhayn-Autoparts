@@ -12,7 +12,7 @@ function Header() {
     return (
         <header className="Header">
             <div className="mobile-top-content">
-                <img className="mobile-logo padding-inline" src="./images/Home/Mobile_Kirchhayn_Logo.png" alt=""/>
+                <Link to="/"><img className="mobile-logo" src="./images/Home/Mobile_Kirchhayn_Logo.png" alt=""/></Link>
                 <div className="right-content">
                     <img className="phone-icon" src="./images/Home/phone-icon.png" alt=""/>
                     <button className={`nav_toggle ${openNav ? 'hamburger-cooked' : ''}`} onClick={handleNavToggle}>
@@ -21,13 +21,13 @@ function Header() {
                 </div>
             </div>
 
-            <img className="desktop-logo hover-animation" src="./images/Home/logo.png" alt=""/>
+            <Link to="/"><img className="desktop-logo hover-animation" src="./images/Home/logo.png" alt=""/></Link>
 
             <nav className={`nav ${openNav ? 'open-nav' : ''}`}>
                 <ul className="nav-list">
-                    <li className="nav-item"><a>Search Used Car Parts</a></li> 
+                    <li className="nav-item"><Link to="/used-parts">Search Used Car Parts</Link></li> 
                     <li className="nav-item"><Link to="/used-cars">Search Used Cars</Link></li>
-                    <li className="nav-item"><a>Sell Your Car</a></li>
+                    <li className="nav-item"><Link to="">Sell Your Car</Link></li>
                     <li className="has-dropdown nav-item">
                         <a>Resources</a>
                         <input type="checkbox" id="submenu-checkbox"/>
@@ -41,7 +41,7 @@ function Header() {
                             <li><a>Category3</a></li>
                         </ul>
                     </li>
-                    <li className="nav-item move-up"><a>Contact Us</a></li>
+                    <li className="nav-item move-up"><Link to="/contact">Contact Us</Link></li>
                 </ul>
                 <a className="phone-info hover-animation">
                     <img src="./images/Home/phone-icon.png" alt=""/>
