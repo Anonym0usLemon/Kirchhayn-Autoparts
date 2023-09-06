@@ -12,16 +12,16 @@ function Header() {
     return (
         <header className="Header">
             <div className="mobile-top-content">
-                <Link to="/"><img className="mobile-logo" src="./images/Home/Mobile_Kirchhayn_Logo.png" alt=""/></Link>
+                <Link to="/"><img className="mobile-logo" src="./Kirchhayn-Autoparts/images/Home/Mobile_Kirchhayn_Logo.png" alt=""/></Link>
                 <div className="right-content">
-                    <img className="phone-icon" src="./images/Home/phone-icon.png" alt=""/>
+                    <img className="phone-icon" src="./Kirchhayn-Autoparts/images/Home/phone-icon.png" alt=""/>
                     <button className={`nav_toggle ${openNav ? 'hamburger-cooked' : ''}`} onClick={handleNavToggle}>
                         <span className="hamburger"></span>
                     </button>
                 </div>
             </div>
 
-            <Link to="/"><img className="desktop-logo hover-animation" src="./images/Home/logo.png" alt=""/></Link>
+            <Link to="/"><img className="desktop-logo hover-animation" src="./Kirchhayn-Autoparts/images/Home/logo.png" alt=""/></Link>
 
             <nav className={`nav ${openNav ? 'open-nav' : ''}`}>
                 <ul className="nav-list">
@@ -32,7 +32,7 @@ function Header() {
                         <a>Resources</a>
                         <input type="checkbox" id="submenu-checkbox"/>
                         <label className="dropdown-label" for="submenu-checkbox">
-                            <img src="./images/Home/Dropdown-Arrow.png" alt=""/>
+                            <img src="./Kirchhayn-Autoparts/images/Home/Dropdown-Arrow.png" alt=""/>
                         </label>
 
                         <ul className="dropdown">
@@ -44,7 +44,7 @@ function Header() {
                     <li className="nav-item move-up"><Link to="/contact">Contact Us</Link></li>
                 </ul>
                 <a className="phone-info hover-animation">
-                    <img src="./images/Home/phone-icon.png" alt=""/>
+                    <img src="./Kirchhayn-Autoparts/images/Home/phone-icon.png" alt=""/>
 
                     <div className="text">
                         <p>Call Us Today!</p>

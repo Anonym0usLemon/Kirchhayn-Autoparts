@@ -5,14 +5,14 @@ function Footer() {
         <footer>
             <div className="desktop-container">
                 <div className="logo-container">
-                    <img className="hover-animation" src="./images/Home/logo.png" alt=""/>
+                    <img className="hover-animation" src="./Kirchhayn-Autoparts/images/Home/logo.png" alt=""/>
                 </div>
                 <div className="desktop-wrapper">
                     <div className="desktop-info">
                         <div className="contact-container">
                             <p className="title">Contact Us</p>
                             <div className="info-container">
-                                <img src="./images/Home/yellow-phone-icon.png" alt=""/>
+                                <img src="./Kirchhayn-Autoparts/images/Home/yellow-phone-icon.png" alt=""/>
                                 <div className="info">
                                     <p className="number">555 555 5555</p>
                                     <p className="align-end">Mon - Fri: 8:00 - 5:00 <br/>Sat: 9:00 - 1:00</p>
@@ -20,7 +20,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="address-container">
-                            <img src="./images/Home/yellow-pin.png" alt=""/>
+                            <img src="./Kirchhayn-Autoparts/images/Home/yellow-pin.png" alt=""/>
                             <div className="info">
                                 <p className="title">Address</p>
                                 <p className="align-end">W4726 County Road A <br/> Fredonia, WI 53021</p>
@@ -44,7 +44,7 @@ function Footer() {
                 </div>
             </div>
             <div className="desktop-cards">
-                <img className="credit-cards" src="./images/Home/Credit-Cards.png" alt="" />
+                <img className="credit-cards" src="./Kirchhayn-Autoparts/images/Home/Credit-Cards.png" alt="" />
                 <p className="credits">Developed By - Dominic DiModugno</p>
             </div>
         </footer>
