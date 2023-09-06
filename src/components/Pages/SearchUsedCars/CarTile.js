@@ -74,7 +74,7 @@ function CarTile() {
             {cars.map((cars) => (
                 <div key={cars.id} className="car-tile hover-animation">
                     <div className="make-image-fit-peas">
-                        <img className="car-photo" src={`./images/Home/${cars.image}`} alt=""/>
+                        <img className="car-photo" src={`/Kirchhayn-Autoparts/images/Home/${cars.image}`} alt=""/>
                     </div>
         
                     <div className="car-info">
@@ -85,12 +85,12 @@ function CarTile() {
         
                     <div className="car-stats">
                         <div className="mileage">
-                            <img src="./images/Home/speedometer.png" alt="" />
+                            <img src="/Kirchhayn-Autoparts/images/Home/speedometer.png" alt="" />
                             <p>{new Intl.NumberFormat('en-US').format(cars.mileage)}</p>
                         </div>
         
                         <div className="transmission">
-                            <img src="./images/Home/transmission.png" alt="" />
+                            <img src="/Kirchhayn-Autoparts/images/Home/transmission.png" alt="" />
                             <p>{cars.transmission}</p>
                         </div>
                     </div>

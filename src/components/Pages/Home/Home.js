@@ -5,8 +5,8 @@ const Home = () => {
     <div className="Home">
       <section className="hero-section">
         <picture>
-          <source srcset="./Kirchhayn-Autoparts/images/Home/Hero-BG.png" type="image/jpeg" media="(min-width: 750px)"/>
-          <img className="background" src="./Kirchhayn-Autoparts/images/Home/Hero-BG-500px.jpg" alt=""/>
+          <source srcset="/Kirchhayn-Autoparts/images/Home/Hero-BG.png" type="image/jpeg" media="(min-width: 750px)"/>
+          <img className="background" src="/Kirchhayn-Autoparts/images/Home/Hero-BG-500px.jpg" alt=""/>
         </picture>
         <div className="content padding-inline">
           <h1>Get the Best Auto Parts</h1>
