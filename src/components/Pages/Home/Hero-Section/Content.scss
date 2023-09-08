@@ -1,0 +1,117 @@
+@import "../../../../CSS/utility";
+
+.hero-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    top: 80px;
+    width: 100%;
+    max-width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media only screen and (min-width: 700px) {
+        top: 130px;
+    }
+
+    @media only screen and (min-width: 800px) {
+        transform: unset;
+        top: 300px;
+        left: 0;
+        padding: 0;
+    }
+
+    @media only screen and (min-width: 1050px) {
+        left: 65px;
+    }
+
+    @media only screen and (min-width: 1500px) {
+        left: 75px;
+        max-width: 700px;
+    }
+
+    @media only screen and (min-width: 1750px) {
+        left: 120px;
+    }
+
+    h1 {
+        font-family: $Montserrat;
+        font-weight: 700;
+        color: $kirch-red;
+
+        @media only screen and (min-width: 800px) {
+            margin: 0;
+            font-size: 27px;
+            text-transform: uppercase;
+        }
+
+        @media only screen and (min-width: 1500px) {
+            font-size: 34px;
+        }
+    }
+
+
+    .desktop-header {
+        display: none;
+
+        @media only screen and (min-width: 800px) {
+            display: block;
+            height: auto;
+            width: 450px;
+        }
+
+        @media only screen and (min-width: 1050px) {
+            width: 550px;
+        }
+
+        @media only screen and (min-width: 1500px) {
+            width: 700px;
+        }
+
+        @media only screen and (min-width: 1750px) {
+            width: 780px;
+        }
+    }
+
+    .button-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        @media only screen and (min-width: 700px) {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        @media only screen and (min-width: 800px) {
+            position: relative;
+            width: 350px;
+            top: 5px;
+
+            a {
+                font-size: 14px;
+                padding: 12px;
+            }
+        }
+
+        @media only screen and (min-width: 1050px) {
+            gap: 30px;
+            width: 430px;
+
+            a {
+                padding: 17px;
+            }
+        }
+
+    }
+
+    a {
+        width: 100%;
+    }
+}

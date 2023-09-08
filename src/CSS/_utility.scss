@@ -67,48 +67,6 @@ h1 {
 
 //button styles
 
-.button{
-	box-sizing: border-box;
-	display: inline-block;
-	position: relative;
-	background-color: #22252C;
-	padding: 17px;
-    text-align: center;
-	
-	// Important
-	overflow: hidden;
-	transition: all 0.25s;
-	
-	img{
-	  width: 100%;
-	}
-	
-	// The reflection
-	&:after{
-	  content: "";
-	  display: inline-block;
-	  visibility: hidden;
-	  width: 55px;
-	  height: 200%;
-	  position: absolute;
-	  top: -50%;
-	  left: -50%;
-	  background-color: rgba(255,255,255,0.4);
-	  transform: rotate(20deg);
-	}
-	
-	// The magic, also very important
-	&:hover{
-	  // background-color: #33D8E5;
-  
-	  &:after{
-		visibility: visible;
-		transition: all 0.65s ease-in-out;
-		left: 150%;
-	  }
-	}
-  }
-
 .yellow-btn {
 	background-color: $kirch-yellow;
 	color: $black;

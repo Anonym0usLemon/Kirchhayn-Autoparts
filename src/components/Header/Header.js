@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+// Component Imports
+import MobileLogo from "../Misc/MobileLogo";
+import DesktopLogo from "../Misc/DesktopLogo";
+import ContactUs from "./ContactUs";
+
 function Header() {
 
     const [openNav, setOpenNav] = useState(false); 
@@ -12,7 +17,7 @@ function Header() {
     return (
         <header className="Header">
             <div className="mobile-top-content">
-                <Link to="/"><img className="mobile-logo" src="/Kirchhayn-Autoparts/images/Home/Mobile_Kirchhayn_Logo.png" alt=""/></Link>
+                <MobileLogo/>
                 <div className="right-content">
                     <img className="phone-icon" src="/Kirchhayn-Autoparts/images/Home/phone-icon.png" alt=""/>
                     <button className={`nav_toggle ${openNav ? 'hamburger-cooked' : ''}`} onClick={handleNavToggle}>
@@ -21,7 +26,7 @@ function Header() {
                 </div>
             </div>
 
-            <Link to="/"><img className="desktop-logo hover-animation" src="/Kirchhayn-Autoparts/images/Home/logo.png" alt=""/></Link>
+            <DesktopLogo/>
 
             <nav className={`nav ${openNav ? 'open-nav' : ''}`}>
                 <ul className="nav-list">
@@ -43,14 +48,7 @@ function Header() {
                     </li>
                     <li className="nav-item move-up"><Link to="/contact">Contact Us</Link></li>
                 </ul>
-                <a className="phone-info hover-animation">
-                    <img src="/Kirchhayn-Autoparts/images/Home/phone-icon.png" alt=""/>
-
-                    <div className="text">
-                        <p>Call Us Today!</p>
-                        <span>555 555 5555</span>
-                    </div> 
-                </a>
+                <ContactUs/>
             </nav>
         </header>
     );

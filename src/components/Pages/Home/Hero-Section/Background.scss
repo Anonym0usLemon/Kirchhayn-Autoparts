@@ -1,0 +1,9 @@
+.hero-background {
+object-fit: cover;
+width: 100%;
+height: 100%;
+
+    @media only screen and (min-width: 700px) {
+        height: 890px;
+    }
+}
