@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kirchhayn-Autoparts/static/css/main.e35b474a.css",
-    "main.js": "/Kirchhayn-Autoparts/static/js/main.070e5f95.js",
+    "main.css": "/Kirchhayn-Autoparts/static/css/main.f8ca89ab.css",
+    "main.js": "/Kirchhayn-Autoparts/static/js/main.0d8308fb.js",
     "static/media/Montserrat-ExtraBoldItalic.eot": "/Kirchhayn-Autoparts/static/media/Montserrat-ExtraBoldItalic.c80988d759e9e0c55046.eot",
     "static/media/Montserrat-ExtraLightItalic.eot": "/Kirchhayn-Autoparts/static/media/Montserrat-ExtraLightItalic.ffb117c15e317ee703be.eot",
     "static/media/Montserrat-SemiBoldItalic.eot": "/Kirchhayn-Autoparts/static/media/Montserrat-SemiBoldItalic.4f297317c749280b5937.eot",
@@ -83,11 +83,11 @@
     "static/media/BruteRegular.woff": "/Kirchhayn-Autoparts/static/media/BruteRegular.1ba69058e66783c62a4f.woff",
     "static/media/BruteRegular.woff2": "/Kirchhayn-Autoparts/static/media/BruteRegular.a7e44cedfdd6af76af24.woff2",
     "index.html": "/Kirchhayn-Autoparts/index.html",
-    "main.e35b474a.css.map": "/Kirchhayn-Autoparts/static/css/main.e35b474a.css.map",
-    "main.070e5f95.js.map": "/Kirchhayn-Autoparts/static/js/main.070e5f95.js.map"
+    "main.f8ca89ab.css.map": "/Kirchhayn-Autoparts/static/css/main.f8ca89ab.css.map",
+    "main.0d8308fb.js.map": "/Kirchhayn-Autoparts/static/js/main.0d8308fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e35b474a.css",
-    "static/js/main.070e5f95.js"
+    "static/css/main.f8ca89ab.css",
+    "static/js/main.0d8308fb.js"
   ]
 }
