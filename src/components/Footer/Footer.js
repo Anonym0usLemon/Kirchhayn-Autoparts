@@ -44,7 +44,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="desktop-cards">
+            <div className="desktop-cards padding-inline">
                 <img className="credit-cards" src="/Kirchhayn-Autoparts/images/Home/Credit-Cards.png" alt="" />
                 <p className="credits">Developed By - Dominic DiModugno</p>
             </div>

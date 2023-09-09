@@ -8,7 +8,7 @@ import "./DesktopLogo.scss";
 
 const DesktopLogo = () => {
   return (
-    <Link to="/" className="desktop-logo-link">
+    <Link to="/Kirchhayn-Autoparts" className="desktop-logo-link">
       <img
         className="desktop-logo"
         src="/Kirchhayn-Autoparts/images/Home/logo.png"

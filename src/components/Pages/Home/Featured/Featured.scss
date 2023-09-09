@@ -1,0 +1,28 @@
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+
+    @media only screen and (min-width: 650px) {
+        justify-content: space-around;
+    }
+
+    @media only screen and (min-width: 1050px) {
+        padding-inline: 40px;
+    }
+
+    @media only screen and (min-width: 1120px) {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    @media only screen and (min-width: 1500px) {
+        padding-inline: 70px;
+    }
+
+    @media only screen and (min-width: 1750px) {
+        padding-inline: 100px;
+    }
+}

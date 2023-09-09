@@ -8,7 +8,7 @@ import "./MobileLogo.scss";
 
 const MobileLogo = () => {
   return (
-    <Link to="/">
+    <Link to="/Kirchhayn-Autoparts">
       <img className="mobile-logo" src="/Kirchhayn-Autoparts/images/Home/mobile-logo.png" alt="" />
     </Link>
   );

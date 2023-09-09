@@ -13,28 +13,29 @@
     left: 50%;
     transform: translateX(-50%);
 
-    @media only screen and (min-width: 700px) {
-        top: 130px;
+    @media only screen and (min-width: 600px) {
+        top: 120px;
     }
 
     @media only screen and (min-width: 800px) {
         transform: unset;
-        top: 300px;
+        top: 250px;
         left: 0;
         padding: 0;
     }
 
     @media only screen and (min-width: 1050px) {
         left: 65px;
+        top: 350px;
     }
 
     @media only screen and (min-width: 1500px) {
-        left: 75px;
+        left: 130px;
         max-width: 700px;
     }
 
     @media only screen and (min-width: 1750px) {
-        left: 120px;
+        left: 160px;
     }
 
     h1 {
@@ -68,11 +69,7 @@
         }
 
         @media only screen and (min-width: 1500px) {
-            width: 700px;
-        }
-
-        @media only screen and (min-width: 1750px) {
-            width: 780px;
+            width: 800px;
         }
     }
 
@@ -82,7 +79,7 @@
         flex-direction: column;
         gap: 15px;
 
-        @media only screen and (min-width: 700px) {
+        @media only screen and (min-width: 800px) {
             flex-direction: row;
             justify-content: center;
             align-items: center;

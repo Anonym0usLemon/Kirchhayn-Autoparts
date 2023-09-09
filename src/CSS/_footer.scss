@@ -20,12 +20,15 @@ footer {
             padding-block: 25px;
             padding-inline: 39px;
             border-right: 1px solid $grey-text;
-            border-bottom: 1px solid $grey-text;
         }
 
         @media only screen and (min-width: 1500px) {
             padding-inline: 70px;
             padding-block: 60px;
+        }
+
+        @media only screen and (min-width: 1750px) {
+            padding-inline: 100px;
         }
 
         img { //logo
@@ -327,7 +330,6 @@ footer {
             align-items: center;
             justify-content: space-between;
             width: 100%;
-            padding-inline: 30px;
             border-top: 1px solid $grey-text;
 
             .credits, .credit-cards {

@@ -1,3 +1,13 @@
+/**
+ * Button component
+ * 
+ * Accepts props: 
+ * - link 
+ * - color
+ * - text
+ * 
+ */
+
 import { Link } from "react-router-dom"
 import "./Button.scss"; 
 

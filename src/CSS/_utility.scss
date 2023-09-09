@@ -25,6 +25,10 @@ $Brute: 'Brute';
     @media only screen and (min-width: 1500px) {
         padding-inline: 70px;
     }
+
+    @media only screen and (min-width: 1750px) {
+        padding-inline: 100px;
+    }
 }
 
 body {
@@ -55,6 +59,23 @@ h1 {
     }
 }
 
+//colors
+.yellow {
+    color: $kirch-yellow;
+}
+
+.red {
+    color: $kirch-red;
+}
+
+.white {
+    color: $white;
+}
+
+.black {
+    color: $black;
+}
+
 //interactive hover effects 
 .hover-animation {
     transition: 0.3s;
@@ -83,4 +104,23 @@ h1 {
 	font-family: $Montserrat;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.white-btn {
+	background-color: $white;
+	color: $black;
+	text-decoration: none;
+	font-family: $Montserrat;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.black-btn {
+	background-color: $black;
+	color: $white;
+	text-decoration: none;
+	font-family: $Montserrat;
+	font-weight: bold;
+	text-transform: uppercase;
+    padding-block: 21px;
 }

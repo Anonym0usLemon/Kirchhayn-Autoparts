@@ -6,7 +6,7 @@ const Background = () => {
           <source
             srcset="/Kirchhayn-Autoparts/images/Home/Hero-BG.png"
             type="image/jpeg"
-            media="(min-width: 700px)"
+            media="(min-width: 800px)"
           />
           <img
             className="hero-background"

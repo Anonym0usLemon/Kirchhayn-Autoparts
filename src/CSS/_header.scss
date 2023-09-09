@@ -120,11 +120,20 @@ Header {
             z-index: 99;
         }
 
+        @media only screen and (min-width: 1350px) {
+            height: 170px;
+            width: 170px;
+        }
+
         @media only screen and (min-width: 1500px) {
             height: 200px;
             width: 200px;
             margin-top: 10px;
             margin-left: 70px;
+        }
+
+        @media only screen and (min-width: 1750px) {
+            margin-left: 100px;
         }
     }
 
@@ -155,7 +164,7 @@ Header {
         @media only screen and (min-width: 1500px) {
             height: 90px;
         }
-
+        
         .nav-list {
             text-decoration: none;
             list-style: none;
@@ -175,9 +184,17 @@ Header {
                 margin-right: 220px;
             }
 
+            @media only screen and (min-width: 1350px) {
+                margin-left: 230px;            
+            }
+
             @media only screen and (min-width: 1500px) {
-                margin-left: 260px;
                 margin-right: 270px;
+            }
+
+            @media only screen and (min-width: 1750px) {
+                margin-left: 350px;
+                margin-right: 350px;
             }
 
             .nav-item {
@@ -330,6 +347,10 @@ Header {
                     &:hover {
                         transform: translateY(-50%) scale(0.97);
                     }
+                }
+
+                @media only screen and (min-width: 1750px) {
+                    margin-right: 100px;
                 }
 
                 img {
