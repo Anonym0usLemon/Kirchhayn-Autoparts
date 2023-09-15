@@ -9,24 +9,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
   var settings = {
-    dots: true,
-    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    initialSlide: 0,
-    variableWidth: false,
-    arrows: false,
+    arrows: true,
+    dots: false,
     responsive: [
       {
-        breakpoint: 1550,
+        breakpoint: 1700,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
           dots: false,
-          arrows: false,
-          variableWidth: false,
+          arrows: true,
         },
       },
       {

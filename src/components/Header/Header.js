@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import MobileLogo from "../Misc/MobileLogo";
 import DesktopLogo from "../Misc/DesktopLogo";
 import ContactUs from "./ContactUs";
+import phone from "../../assets/svgs/phone.svg"
 
 function Header() {
 
@@ -19,7 +20,7 @@ function Header() {
             <div className="mobile-top-content">
                 <MobileLogo/>
                 <div className="right-content">
-                    <img className="phone-icon" src="/Kirchhayn-Autoparts/images/svgs/phone.svg" alt=""/>
+                    <img className="phone-icon" src={phone} alt=""/>
                     <button className={`nav_toggle ${openNav ? 'hamburger-cooked' : ''}`} onClick={handleNavToggle}>
                         <span className="hamburger"></span>
                     </button>

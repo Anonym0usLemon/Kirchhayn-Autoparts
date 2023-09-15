@@ -59,6 +59,19 @@ h1 {
     }
 }
 
+h2 {
+    font-size: 23px;
+    font-family: $Brute;
+
+    @media only screen and (min-width: 450px) {
+        font-size: 33px;
+    }
+
+    @media only screen and (min-width: 1050px) {
+        font-size: 42px;
+    }
+}
+
 //colors
 .yellow {
     color: $kirch-yellow;

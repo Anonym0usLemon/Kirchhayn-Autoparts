@@ -13,6 +13,8 @@
  *  
  */
 import "./CarTile.scss";
+import tacometer from "../../../assets/svgs/tacometer.svg"
+import transmission from "../../../assets/svgs/transmission.svg"
 
 const CarTile = (props) => {
   return (
@@ -35,12 +37,12 @@ const CarTile = (props) => {
 
       <div className="car-stats">
         <div className="mileage">
-          <img src="/Kirchhayn-Autoparts/images/svgs/tacometer.svg" alt="" />
+          <img src={tacometer} alt="" />
           <p>{new Intl.NumberFormat("en-US").format(props.mileage)}</p>
         </div>
 
         <div className="transmission">
-          <img src="/Kirchhayn-Autoparts/images/svgs/transmission.svg" alt="" />
+          <img src={transmission} alt="" />
           <p>{props.transmission}</p>
         </div>
       </div>

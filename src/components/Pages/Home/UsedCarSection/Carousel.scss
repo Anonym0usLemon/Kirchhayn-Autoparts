@@ -12,4 +12,53 @@
             transform: translateX(-50%);
         }
     }
+
+    .slick-prev, .slick-next {
+        height: 30px;
+        width: 30px;
+
+        @media only screen and (min-width: 1280px) and (min-width: 1400), (min-width: 1600px) {
+            height: 40px;
+            width: 40px;
+        }
+
+        @media only screen and (min-width: 1750px) {
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .slick-prev {
+        left: -20px;
+
+        @media only screen and (min-width: 1600px) {
+            left: -35px;
+        }
+
+        @media only screen and (min-width: 1750px) {
+            left: -65px;
+        }
+
+        &::before {
+            content: url("../../../../assets/svgs/left-arrow.svg");
+            opacity: 1;
+        }
+    }
+
+    .slick-next {
+        right: -20px;
+
+        @media only screen and (min-width: 1600px) {
+            right: -35px;
+        }
+
+        @media only screen and (min-width: 1750px) {
+            right: -65px;
+        }
+
+        &::before {
+            content: url("../../../../assets/svgs/right-arrow.svg");
+            opacity: 1;
+        }
+    }
 }

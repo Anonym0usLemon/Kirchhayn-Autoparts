@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"; 
 import DesktopLogo from "../Misc/DesktopLogo";
+import phone from "../../assets/svgs/yellow-phone.svg"
+import pin from "../../assets/svgs/map-icon.svg"
 
 function Footer() {
     return (
@@ -13,7 +15,7 @@ function Footer() {
                         <div className="contact-container">
                             <p className="title">Contact Us</p>
                             <div className="info-container">
-                                <img src="/Kirchhayn-Autoparts/images/svgs/phone.svg" alt=""/>
+                                <img src={phone} alt=""/>
                                 <div className="info">
                                     <p className="number">555 555 5555</p>
                                     <p className="align-end">Mon - Fri: 8:00 - 5:00 <br/>Sat: 9:00 - 1:00</p>
@@ -21,7 +23,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="address-container">
-                            <img src="/Kirchhayn-Autoparts/images/Home/yellow-pin.png" alt=""/>
+                            <img src={pin} alt=""/>
                             <div className="info">
                                 <p className="title">Address</p>
                                 <p className="align-end">W4726 County Road A <br/> Fredonia, WI 53021</p>
