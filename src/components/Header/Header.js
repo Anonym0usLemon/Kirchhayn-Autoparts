@@ -19,7 +19,7 @@ function Header() {
             <div className="mobile-top-content">
                 <MobileLogo/>
                 <div className="right-content">
-                    <img className="phone-icon" src="/Kirchhayn-Autoparts/images/Home/phone-icon.png" alt=""/>
+                    <img className="phone-icon" src="/Kirchhayn-Autoparts/images/svgs/phone.svg" alt=""/>
                     <button className={`nav_toggle ${openNav ? 'hamburger-cooked' : ''}`} onClick={handleNavToggle}>
                         <span className="hamburger"></span>
                     </button>

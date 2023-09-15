@@ -8,7 +8,7 @@ import "./ContactUs.scss";
 const ContactUs = () => {
   return (
     <Link className="phone-info hover-animation">
-      <img src="/Kirchhayn-Autoparts/images/Home/phone-icon.png" alt="" />
+      <img src="/Kirchhayn-Autoparts/images/svgs/phone.svg" alt="" />
 
       <div className="text">
         <p>Call Us Today!</p>
