@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kirchhayn-Autoparts/static/css/main.50713181.css",
-    "main.js": "/Kirchhayn-Autoparts/static/js/main.fcae0817.js",
+    "main.css": "/Kirchhayn-Autoparts/static/css/main.1fb1c7a5.css",
+    "main.js": "/Kirchhayn-Autoparts/static/js/main.867e6370.js",
     "static/media/Montserrat-ExtraBoldItalic.eot": "/Kirchhayn-Autoparts/static/media/Montserrat-ExtraBoldItalic.c80988d759e9e0c55046.eot",
     "static/media/Montserrat-ExtraLightItalic.eot": "/Kirchhayn-Autoparts/static/media/Montserrat-ExtraLightItalic.ffb117c15e317ee703be.eot",
     "static/media/Montserrat-SemiBoldItalic.eot": "/Kirchhayn-Autoparts/static/media/Montserrat-SemiBoldItalic.4f297317c749280b5937.eot",
@@ -81,17 +81,24 @@
     "static/media/BruteRegular.eot": "/Kirchhayn-Autoparts/static/media/BruteRegular.a101e08c987b05a0fbb3.eot",
     "static/media/BruteRegular.ttf": "/Kirchhayn-Autoparts/static/media/BruteRegular.400740be093f219101b9.ttf",
     "static/media/BruteRegular.woff": "/Kirchhayn-Autoparts/static/media/BruteRegular.1ba69058e66783c62a4f.woff",
+    "static/media/tacometer.svg": "/Kirchhayn-Autoparts/static/media/tacometer.f0eacc4dee3a9eed87582f8df1f45dd3.svg",
     "static/media/BruteRegular.woff2": "/Kirchhayn-Autoparts/static/media/BruteRegular.a7e44cedfdd6af76af24.woff2",
     "static/media/slick.svg": "/Kirchhayn-Autoparts/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Kirchhayn-Autoparts/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Kirchhayn-Autoparts/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Kirchhayn-Autoparts/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/transmission.svg": "/Kirchhayn-Autoparts/static/media/transmission.72764c2ef1ba436440484f638d0be048.svg",
+    "static/media/yellow-phone.svg": "/Kirchhayn-Autoparts/static/media/yellow-phone.e842dbee50b120f31d833be93d2cd461.svg",
+    "static/media/phone.svg": "/Kirchhayn-Autoparts/static/media/phone.d594a141ae9f8d5688aafdff00732e7d.svg",
     "index.html": "/Kirchhayn-Autoparts/index.html",
-    "main.50713181.css.map": "/Kirchhayn-Autoparts/static/css/main.50713181.css.map",
-    "main.fcae0817.js.map": "/Kirchhayn-Autoparts/static/js/main.fcae0817.js.map"
+    "static/media/left-arrow.svg": "/Kirchhayn-Autoparts/static/media/left-arrow.52b54180f8c55996f879.svg",
+    "static/media/right-arrow.svg": "/Kirchhayn-Autoparts/static/media/right-arrow.db7a688b5d7c834181c9.svg",
+    "static/media/map-icon.svg": "/Kirchhayn-Autoparts/static/media/map-icon.a54cbd408b048d807ace2e57d9fe0266.svg",
+    "main.1fb1c7a5.css.map": "/Kirchhayn-Autoparts/static/css/main.1fb1c7a5.css.map",
+    "main.867e6370.js.map": "/Kirchhayn-Autoparts/static/js/main.867e6370.js.map"
   },
   "entrypoints": [
-    "static/css/main.50713181.css",
-    "static/js/main.fcae0817.js"
+    "static/css/main.1fb1c7a5.css",
+    "static/js/main.867e6370.js"
   ]
 }
