@@ -1,0 +1,15 @@
+.carousel {
+
+    .tile-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .car-tile {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
