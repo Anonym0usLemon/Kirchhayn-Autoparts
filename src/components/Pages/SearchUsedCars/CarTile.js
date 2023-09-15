@@ -35,12 +35,12 @@ const CarTile = (props) => {
 
       <div className="car-stats">
         <div className="mileage">
-          <img src="/Kirchhayn-Autoparts/images/Home/speedometer.png" alt="" />
+          <img src="/Kirchhayn-Autoparts/images/svgs/tacometer.svg" alt="" />
           <p>{new Intl.NumberFormat("en-US").format(props.mileage)}</p>
         </div>
 
         <div className="transmission">
-          <img src="/Kirchhayn-Autoparts/images/Home/transmission.png" alt="" />
+          <img src="/Kirchhayn-Autoparts/images/svgs/transmission.svg" alt="" />
           <p>{props.transmission}</p>
         </div>
       </div>

@@ -13,7 +13,7 @@ function Footer() {
                         <div className="contact-container">
                             <p className="title">Contact Us</p>
                             <div className="info-container">
-                                <img src="/Kirchhayn-Autoparts/images/Home/yellow-phone-icon.png" alt=""/>
+                                <img src="/Kirchhayn-Autoparts/images/svgs/phone.svg" alt=""/>
                                 <div className="info">
                                     <p className="number">555 555 5555</p>
                                     <p className="align-end">Mon - Fri: 8:00 - 5:00 <br/>Sat: 9:00 - 1:00</p>
