@@ -1,0 +1,40 @@
+/**
+    This file contains all styles for the parts section.
+    The image and description components are nested within
+    the PartsSection component. 
+*/
+
+@import "../../../../CSS/utility.scss";
+
+.parts-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .description {
+        
+        .title {
+            display: flex;
+            justify-content: flex-start;
+
+            h2 {
+                margin: 0;
+                font-family: $Montserrat;
+                font-size: 33px;
+                text-align: center;
+
+                img {
+                    height: 25px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        p {
+            font-weight: 500;
+            word-spacing: 1px;
+            line-height: 1.5;
+        }
+    }
+}

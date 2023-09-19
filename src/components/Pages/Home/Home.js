@@ -1,6 +1,9 @@
 import Featured from "./Featured/Featured";
-import HeroSection from "./Hero-Section/HeroSection";
+import HeroSection from "./HeroSection/HeroSection";
+import PartsSection from "./PartsSection/PartsSection";
 import UsedCarSection from "./UsedCarSection/UsedCarSection";
+import "./Home.scss"; 
+
 
 const Home = () => {
   return (
@@ -8,6 +11,7 @@ const Home = () => {
         <HeroSection/>
         <Featured/>
         <UsedCarSection/>
+        <PartsSection/>
       </div>
   );
 };
