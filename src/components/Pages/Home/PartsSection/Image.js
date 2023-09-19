@@ -2,7 +2,7 @@
 const Image = () => {
     return (
         <>
-            <img src="Kirchhayn-Autoparts/images/Home/parts-selection-parts.png" alt=""/>
+            <img className="aside" src="Kirchhayn-Autoparts/images/Home/parts-selection-parts.png" alt=""/>
         </>
     );
 }

@@ -3,14 +3,32 @@
     The image and description components are nested within
     the PartsSection component. 
 */
-
 @import "../../../../CSS/utility.scss";
 
 .parts-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
+
+    @media only screen and (min-width: 870px) {
+        margin-top: 70px;
+    }
+
+    @media only screen and (min-width: 1050px) {
+        flex-direction: row;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        gap: 90px;
+    }
+
+    .aside {
+        width: 100%;
+        max-height: 450px;
+        max-width: 450px;
+    }
 
     .description {
         
@@ -35,6 +53,31 @@
             font-weight: 500;
             word-spacing: 1px;
             line-height: 1.5;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 30px;
+
+        @media only screen and (min-width: 740px) {
+            flex-direction: row;
+            justify-content: flex-start;
+
+            a {
+                width: 250px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            gap: 30px;
         }
     }
 }
