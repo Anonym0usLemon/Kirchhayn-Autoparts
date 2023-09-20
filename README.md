@@ -16,8 +16,8 @@ Currently under construction.
 
 + finish all homepage sections
 + add a filter to /used-car-parts
-+ design /contact page
-+ design /warranty page
-+ design /cut-sheets page
++ /contact page
++ /warranty page
++ /cut-sheets page
 
 

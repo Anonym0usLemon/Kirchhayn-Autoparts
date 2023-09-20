@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import Slider from "react-slick";
 import cars from "../../SearchUsedCars/data";
 import CarTile from "../../SearchUsedCars/CarTile";

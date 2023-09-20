@@ -1,0 +1,120 @@
+@import "../../../../CSS/utility.scss"; 
+
+.testimonials {
+    position: relative;
+
+    .title {
+        background-color: $black;
+        color: white;
+        height: 125px;
+        padding-top: 15px;
+
+        @media only screen and (min-width: 1050px) {
+            height: 290px;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            @media only screen and (min-width: 500px) {
+                font-size: 24px;
+            }
+
+            @media only screen and (min-width: 1050px) {
+                font-size: 42px;
+            }
+            
+            span {
+                color: $kirch-yellow;
+                font-family: $Montserrat;
+                font-size: 18px;
+                
+                @media only screen and (min-width: 500px) {
+                    font-size: 20px;
+                }
+
+                @media only screen and (min-width: 1050px) {
+                    font-size: 42px;
+                }
+            }
+        }
+    }
+
+    .tire-marks {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-shrink: 0;
+        background-color: #eaeaea;
+        width: 100%;
+        height: 220px;
+        z-index: 1;
+        overflow: hidden;
+
+        @media only screen and (min-width: 500px) {
+            height: 280px;
+        }
+
+        @media only screen and (min-width: 1050px) {
+            height: 354px;
+        }
+
+        .left {
+            position: relative;
+            top: -24px;
+            right: 184px;
+            width: 363px;
+            height: 396px;
+            flex-shrink: 0;
+            z-index: 1;
+
+            @media only screen and (min-width: 550px) {
+                top: -79px;
+                right: 89px;
+            }
+        }
+
+        .right {
+            position: relative;
+            top: 0;
+            right: 170px;
+            width: 334px;
+            height: 425px;
+            flex-shrink: 0;
+            z-index: 1;
+
+            @media only screen and (min-width: 420px) {
+                right: 100px;
+            }
+
+            @media only screen and (min-width: 480px) {
+                right: 50px;
+            }
+
+            @media only screen and (min-width: 550px) {
+                right: -98px;
+                top: -23px;            
+            }
+
+            @media only screen and (min-width: 1050px) {
+                right: -98px;
+                top: -23px;
+            }
+        }
+
+    } 
+
+    .tire-button {
+        position: absolute;
+        bottom: 25px;
+        transform: translateX(-50%);
+        left: 50%;
+        z-index: 99;
+        width: 100%;
+    }
+}
