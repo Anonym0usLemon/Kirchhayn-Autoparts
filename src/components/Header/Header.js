@@ -26,13 +26,11 @@ function Header() {
                     </button>
                 </div>
             </div>
-
             <DesktopLogo/>
-
             <nav className={`nav ${openNav ? 'open-nav' : ''}`}>
                 <ul className="nav-list">
                     <li className="nav-item"><Link to="/used-parts">Search Used Car Parts</Link></li> 
-                    <li className="nav-item"><Link to="/used-cars">Search Used Cars</Link></li>
+                    <li className="nav-item"><Link to="">Search Used Cars</Link></li>
                     <li className="nav-item"><Link to="">Sell Your Car</Link></li>
                     <li className="has-dropdown nav-item">
                         <a>Resources</a>
@@ -47,7 +45,7 @@ function Header() {
                             <li><a>Category3</a></li>
                         </ul>
                     </li>
-                    <li className="nav-item move-up"><Link to="/contact">Contact Us</Link></li>
+                    <li className="nav-item move-up"><Link to="">Contact Us</Link></li>
                 </ul>
                 <ContactUs/>
             </nav>
