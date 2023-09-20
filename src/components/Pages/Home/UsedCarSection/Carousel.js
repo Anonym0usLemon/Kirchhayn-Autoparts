@@ -13,6 +13,8 @@ const Carousel = () => {
     slidesToScroll: 1,
     arrows: true,
     dots: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 1700,
@@ -21,6 +23,8 @@ const Carousel = () => {
           slidesToScroll: 1,
           dots: false,
           arrows: true,
+          autoplay: true,
+          autoplaySpeed: 5000,
         },
       },
       {
@@ -30,6 +34,8 @@ const Carousel = () => {
           slidesToScroll: 1,
           arrows: false,
           dots: false,
+          autoplay: true,
+          autoplaySpeed: 5000,          
         },
       },
       {
@@ -39,6 +45,8 @@ const Carousel = () => {
           slidesToScroll: 1,
           arrows: false,
           dots: false,
+          autoplay: true,
+          autoplaySpeed: 5000,
         },
       },
     ],

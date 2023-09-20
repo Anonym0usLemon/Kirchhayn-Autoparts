@@ -11,6 +11,8 @@ const ReviewsSlider = () => {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1050,
@@ -19,6 +21,8 @@ const ReviewsSlider = () => {
           slidesToScroll: 1,
           arrows: false,
           dots: false,
+          autoplay: true,
+          autoplaySpeed: 3000,      
         },
       },
     ],

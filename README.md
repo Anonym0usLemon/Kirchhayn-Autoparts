@@ -14,7 +14,6 @@ Kirchhayn Autoparts is an 8-page fully responsive website designed to for the ne
 ## Future Ideas
 Currently under construction. 
 
-+ finish all homepage sections
 + add a filter to /used-car-parts
 + /contact page
 + /warranty page
