@@ -1,25 +1,17 @@
-# Kirchhayn Autoparts
+# Project Name: Kirchhayn Autoparts
 
-This website is a project I completed for Kirchhayn Autoparts during my tenure at iNET. I took on the challenge of developing this site from the ground up using ASP .NET, showcasing my proficiency in server-side web development.
-
-Currently, I am actively engaged in a refactoring effort aimed at enhancing the website's user experience and performance. This refactoring involves the incorporation of modern React concepts and a component-based architecture, aligning the project with current web development trends and best practices.
-
-By combining my initial work in ASP .NET with my ongoing efforts to integrate React, I aim to create a dynamic and responsive web solution that delivers an exceptional user experience for Kirchhayn Autoparts and their customers. Stay tuned to see how this project evolves and improves with these enhancements.
+## Project Description:
+This project is a fully responsive static website I worked on during my tenure at iNET Web in Waukesha Wisconsin. It was for a small autoparts/wrecking yard in Fredonia Wisconsin. Developed using HTML and SCSS from scratch, this project highlights my ability to turn a design into frontend code with attention to detail. 
 
 #### Live Demo:  https://anonym0uslemon.github.io/Kirchhayn-Autoparts/
-
-## Key Features
-
-- react-slick for slider functionality. 
+<img width="1512" alt="Screenshot 2024-02-14 at 1 21 27 PM" src="https://github.com/user-attachments/assets/b13953bd-80a2-4527-914c-6ae6951f07cf">
 
 ## Technologies:
-
 - React
 - SCSS
+- Slick Slider CSS Library
 
-## Future Ideas
-Currently under construction. 
-
+## Project TODOs: 
 + add a filter to /used-car-parts
 + /contact page
 + /warranty page
